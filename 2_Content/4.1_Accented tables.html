@@ -10,8 +10,11 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="p-5">
 
+    <a href="https://getbootstrap.com/docs/5.0/content/tables/" class="btn btn-primary">Page Tables</a>
+
+    <br><br>
     <h4>Overview</h4>
     <table class="table">
         <thead>
@@ -46,40 +49,44 @@
     <br>
     <hr>
     <h4>Variants</h4>
-    <div class="row">
-        <div class="col">
-            <ul>
-                <li>class="table-primary"</li>
-                <li>class="table-secondary"</li>
-                <li>class="table-success"</li>
-                <li>class="table-danger"</li>
-                <li>class="table-warning"</li>
-                <li>class="table-info"</li>
-                <li>class="table-light"</li>
-                <li>class="table-dark"</li>
-            </ul>
-        </div>
-        <div class="col">
-            <ul>
-                <li>class="table-striped"</li>
-                <li>class="table-hover"</li>
-                <li>class="table-active"</li>
-                <li>class="table-bordered"</li>
-                <li>class="table-bordered border-primary"</li>
-                <li>class="table table-borderless"</li>
-                <li>class="table-sm"</li>    
-            </ul>
-        </div>
-        <div class="col">
-            <ul>
-                <li>thead class="table-light"</li>
-                <li>thead class="table-dark"</li>                 
-                <li>caption</li>                 
-                <li>.table-responsive{-sm|-md|-lg|-xl|-xxl}</li>                 
-            </ul>
-        </div>
-    </div>
-    
+    <table class="table">
+        <tr>
+            <td class="table-primary">class="table-primary"</td>
+            <td>class="table-striped"</td>
+            <td>thead class="table-light"</td>
+        </tr>
+        <tr>
+            <td class="table-secondary">class="table-secondary"</td>
+            <td>class="table-hover"</td>
+            <td>thead class="table-dark"</td>
+        </tr>
+        <tr>
+            <td class="table-success">class="table-success"</td>
+            <td>class="table-active"</td>
+            <td>caption</td>
+        </tr>
+        <tr>
+            <td class="table-danger">class="table-danger"</td>
+            <td>class="table-bordered"</td>
+            <td>.table-responsive{-sm|-md|-lg|-xl|-xxl}</td>
+        </tr>
+        <tr>
+            <td class="table-warning">class="table-warning"</td>
+            <td>class="table-bordered border-primary"</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="table-info">class="table-info"</td>
+            <td>class="table table-borderless"</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="table-light">class="table-light"</td>
+            <td>class="table-sm"</td>
+            <td></td>
+        </tr>
+    </table>
+
 
     <br>
     <table class="table table-primary">
@@ -104,7 +111,7 @@
             <td>tr class="table-primary" </td>
         </tr>
     </table>
-    
+
     <br>
     <table class="table">
         <tr class="table-primary">
@@ -142,11 +149,11 @@
             <td>class="table table-dark table-striped"</td>
             <td>class="table table-dark table-striped"</td>
         </tr>
-      </table>
+    </table>
 
-      <br>
-      <br>
-      <table class="table table-success table-striped">
+    <br>
+    <br>
+    <table class="table table-success table-striped">
         <tr>
             <td>class="table table-success table-striped"</td>
             <td>class="table table-success table-striped"</td>
@@ -155,11 +162,11 @@
             <td>class="table table-success table-striped"</td>
             <td>class="table table-success table-striped"</td>
         </tr>
-      </table>
+    </table>
 
-      <br>
-      <br>
-      <table class="table table-hover">
+    <br>
+    <br>
+    <table class="table table-hover">
         <tr>
             <td>class="table table-hover"</td>
             <td>class="table table-hover"</td>
@@ -168,11 +175,11 @@
             <td>class="table table-hover"</td>
             <td>class="table table-hover"</td>
         </tr>
-      </table>
+    </table>
 
-      <br>
-      <br>
-      <table class="table table-dark table-hover">
+    <br>
+    <br>
+    <table class="table table-dark table-hover">
         <tr>
             <td>class="table table-dark table-hover"</td>
             <td>class="table table-dark table-hover"</td>
@@ -181,11 +188,11 @@
             <td>class="table table-dark table-hover"</td>
             <td>class="table table-dark table-hover"</td>
         </tr>
-      </table>
+    </table>
 
-      <br>
-      <br>
-      <table class="table table-striped table-hover">
+    <br>
+    <br>
+    <table class="table table-striped table-hover">
         <tr>
             <td>class="table table-striped table-hover"</td>
             <td>class="table table-striped table-hover"</td>
@@ -194,13 +201,13 @@
             <td>class="table table-striped table-hover"</td>
             <td>class="table table-striped table-hover"</td>
         </tr>
-      </table>
+    </table>
 
-      <br>
-      <br>
-      <h4>Active tables: </h4>
-      <h5>Highlight a table row or cell by adding a .table-active class.</h5>
-      <table class="table">
+    <br><br>
+    <h4>Active tables: </h4>
+    <p>Highlight a table row or cell by adding a .table-active class.</p>
+    <br>
+    <table class="table">
         <tr>
             <td class="table-active">class="table table-active"</td>
             <td>Another col</td>
@@ -212,11 +219,11 @@
             <td>Another col</td>
             <td>Another col</td>
         </tr>
-      </table>
+    </table>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+</script>
 
 </html>
